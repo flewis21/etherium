@@ -1,0 +1,19 @@
+{
+  "name": "helletherium",
+  "version": "1.0.0",
+  "description": "Blockchain Guru of web3 applications!",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/flewis21/etherium.git"
+  },
+  "author": "Rajeev Sakhuja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flewis21/etherium/issues"
+  },
+  "homepage": "https://github.com/flewis21/etherium#readme"
+}
