@@ -4,7 +4,12 @@
   "description": "Blockchain Guru of web3 applications!",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm install -g npm",
+    "tempt": "serverless offline",
+    "plug": "serverless plugin install -n",
+    "lint": "standard",
+    "start": "node handler"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/flewis21/etherium/issues"
   },
-  "homepage": "https://github.com/flewis21/etherium#readme"
+  "homepage": "https://github.com/flewis21/etherium#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "npm": "^7.24.1",
+    "serverless": "^2.60.0",
+    "serverless-offline": "^8.2.0",
+    "standard": "^16.0.3"
+  }
 }
